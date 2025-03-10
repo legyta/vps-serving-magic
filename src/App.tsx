@@ -1,9 +1,9 @@
 import React from 'react';
 import { Routes, Route, Link, Navigate } from 'react-router-dom';
-import HelloWorld from './pages/HelloWorld';
-import DoughnutTime from './pages/DoughnutTime';
-import Baloons from './pages/Baloons';
-import NotFound from './pages/NotFound';
+import HelloWorld from './pages/HelloWorld.tsx';
+import DoughnutTime from './pages/DoughnutTime.tsx';
+import Baloons from './pages/Baloons.tsx';
+import NotFound from './pages/NotFound.tsx';
 import './App.css';
 
 function App() {
